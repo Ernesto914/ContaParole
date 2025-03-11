@@ -12,7 +12,7 @@
             {
                 contatore_parole++;
             }
-            while (spazio != -1 && spazio <= frase.Length - 1)
+            while (spazio != -1)
             {
                 if (frase.Substring(spazio + 1, 1) != " ")
                 {
